@@ -13,10 +13,20 @@ module Program =
         //let UniqueString = "foo"
         //let UniqueString = "bar" + GuidString
         //let UniqueString = "bar" + "foo"
-        let UniqueString = "foobar"
+        let TestString = "foobar"
 
-        let UniqueStringToBytesAndBackAgain =
-            Encoding.UTF8.GetBytes(UniqueString)
+        let UniqueString =
+            TestString
+            |> Encoding.UTF8.GetBytes
+            |> ToUniqueByteArray
             |> Encoding.UTF8.GetString
 
+        let PlainString =
+            TestString
+            |> Encoding.UTF8.GetBytes
+            |> ToPlainByteArray
+            |> Encoding.UTF8.GetString
+
+        printfn "Unique String: %s" UniqueString |> ignore
+        printfn "Plain String : %s" PlainString |> ignore
         0
