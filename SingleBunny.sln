@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SingleBunny", "SingleBunny\SingleBunny.fsproj", "{005A6127-65BB-4689-B77D-2F08A533999B}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SingleBunnyTest", "SingleBunnyTest\SingleBunnyTest.fsproj", "{368B17A0-5969-46EC-9EB0-2CEDF0158D03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{005A6127-65BB-4689-B77D-2F08A533999B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{005A6127-65BB-4689-B77D-2F08A533999B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{005A6127-65BB-4689-B77D-2F08A533999B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{005A6127-65BB-4689-B77D-2F08A533999B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368B17A0-5969-46EC-9EB0-2CEDF0158D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368B17A0-5969-46EC-9EB0-2CEDF0158D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368B17A0-5969-46EC-9EB0-2CEDF0158D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368B17A0-5969-46EC-9EB0-2CEDF0158D03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E71F305C-46B8-45A3-868B-061E20693426}
+	EndGlobalSection
+EndGlobal
